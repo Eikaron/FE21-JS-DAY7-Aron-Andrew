@@ -19,6 +19,10 @@
     <!-- Animate.css CDN link -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 
+    <!-- Sweet Alert CSS local -->
+    <link rel="stylesheet" href="../sweetalert2/dist/sweetalert2.min.css">
+    <!-- Sweet Alert cdn -->
+    <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'> -->
 
     <!-- My Styles -->
     <link rel="stylesheet" href="CSS/styles.css">
@@ -28,7 +32,6 @@
 
 <body>
     <!-- ################################################################################## -->
-    <!-- OLD HERO -->
     <div class="hp-content-container">
         <!-- SWIPER statt HERO -->
         <!-- Slider main container -->
@@ -38,7 +41,7 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide slide0">
-                        <h1>While Coding {</h1>
+                        <h1>While (Coding) {</h1>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <span>do nothing else;</span><br>
                         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,6 +83,7 @@
         </div>
         <!-- HEADER - Hero + Navbar -->
         <header>
+            <!-- OLD HERO -->
             <!-- <div class="hero-container">
                 <span>Andrew Gorman Full-Stack Web Developer</span>
                 <img src="img/logo.png" alt="CF-Logo">
@@ -91,26 +95,30 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="HTML/blog.html">Blog</a></li>
                         <li><a href="HTML/about.html">About Me</a></li>
-                        <li><a href="HTML/contact.html">Contact</a></li>
+                        <li id="alert-test"><a href="HTML/contact.html">Contact</a></li>
                     </div>
                 </ul>
             </nav>
         </header>
         <!-- MAIN BODY - Title + Gallery -->
         <div class="title">
-            <h1>This is my first website :D</h1>
+            <h1 class="animate__animated animate__rotateIn animate__flash">This is my first website
+                :D</h1>
+            <h2 class="animate__animated animate__rotateIn animate__delay-1s">I can spin too</h2>
+            <h3 class="animate__animated animate__jello animate__delay-2s">I wish I could spin</h3>
         </div>
         <!-- IMAGES TO ANIMATE -->
         <div class="image-gallery">
-            <div class="samsung animate__animated animate__zoomIn"></div>
+            <div class="samsung animate__animated animate__zoomIn" id="samsung"></div>
             <p>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</p>
             <div class="gallery-row">
                 <div class="atm">
-                    <img src="img/Debit_card_ATM.jpg" class="animate__animated animate__rotateInUpLeft" alt="ATM">
+                    <img src="img/Debit_card_ATM.jpg" class="animate__animated animate__rotateInUpLeft" id="atm"
+                        alt="ATM">
                     <p>Police are investigating three ATM explosions in two Florida counties</p>
                 </div>
                 <div class="e-scooter">
-                    <img src="img/Taxify-Scooters.jpg" class="animate__animated animate__rotateInUpRight"
+                    <img src="img/Taxify-Scooters.jpg" class="animate__animated animate__rotateInUpRight" id="escooter"
                         alt="E-Scooter">
                     <p>E-scooter firm Bolt pulls out of twelve cities</p>
                 </div>
@@ -118,20 +126,30 @@
         </div>
         <!-- FOOTER - Logo + Copyright -->
         <footer>
-            <img src="img/logo.png" alt="CF-Logo-smaller">
+            <img src="img/logo.png" id="broken" alt="CF-Logo-smaller">
             <p>Andrew Gorman © CodeFactory 2021</p>
         </footer>
 
         <!-- Swiper local -->
         <script src="../Swiper/swiper/swiper-bundle.min.js"></script>
+
         <!-- Swiper cdn -->
         <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+
         <!-- My SWIPER JS -->
         <script src="JS/my-swiper.js"></script>
+
         <!-- Anime local -->
         <!-- <script src="../animejs/lib/anime.min.js"></script> -->
+
         <!-- Anime cdn link -->
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script> -->
+
+        <!-- JS Local Sweet Alert -->
+        <script src="../sweetalert2/dist/sweetalert2.min.js"></script>
+        <!-- JS CDN Sweet Alert -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script> -->
+
     </div>
 </body>
 
