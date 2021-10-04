@@ -22,6 +22,15 @@ const swiper = new Swiper('.swiper', {
 
 
 document.getElementById("phone").addEventListener("click", function(){
-    alert("Do not touch the phone");
+    Swal.fire({
+      title: "Do not click the phone!",
+      text: "What if it explodes?",
+      icon: "warning"
+    });
 }
-)
+);
+
+document.getElementById("card").addEventListener("click", function(){
+  Swal.fire('');
+}
+);
