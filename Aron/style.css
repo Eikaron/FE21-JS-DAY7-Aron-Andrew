@@ -8,9 +8,11 @@ body {
     left: 10vw;
 }
 
-.swiper{
-
+header {
     background-color: rosybrown;
+}
+
+.swiper{
     width: 80vw;
     height: 10vw;
 }
@@ -47,6 +49,7 @@ h1 {
     font-size: 40pt;
     text-align: center;
 }
+
 
 h2 {
 
