@@ -1,0 +1,201 @@
+/* "HOME" SECTION */
+
+body {
+
+    width: 80vw;
+    background-color: white;
+    position: relative;
+    left: 10vw;
+}
+
+.swiper{
+
+    background-color: rosybrown;
+    width: 80vw;
+    height: 10vw;
+}
+
+.swpimg {
+    width: 20vw;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#headerimg {
+
+    width: 20vw;
+    position: relative;
+    left: 15vw;
+    padding: 2%;
+}
+
+#headertext {
+
+        position: relative;
+        bottom: 4vw;
+        }
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    text-align: center;
+}
+
+h2 {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+    margin-top: 0;
+    padding-left: 3vw;
+}
+
+ul {
+    background-color: tomato;
+    margin-top: 0vw;
+    margin-bottom:0vw;
+    height: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 12px;
+    left: 50vw;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+div {
+    display: inline-block;
+}
+
+#divphone{
+    width: 80vw;
+
+}
+
+#divcard {
+    width: 39vw;
+}
+
+#divscooter{
+    width: 39vw;
+    position: relative;
+    left: 1vw;}
+
+
+#phone {
+
+    width: 74vw;
+    height: 20vw;
+    position: relative;
+    left: 3vw;
+    object-fit: cover;
+    object-position: 0 -14vw;
+}
+
+
+#card{ 
+    width: 35vw;
+    height: 20vw;
+    padding-left: 3vw;
+    padding-right: 0px;
+    padding-bottom: 1vw;
+
+}
+
+#scooter {
+    width: 35vw;
+    height: 20vw;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+
+}
+
+footer{
+
+background-color: rosybrown;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+padding-bottom: 1%;
+}
+
+
+#bottomlogo img {
+
+    margin: auto;
+    height: auto;
+    width: 15%;
+    padding: 1%;
+}
+
+
+/* "BLOG" SECTION */
+
+#yoga {
+
+    text-align: center;
+    color:hotpink
+
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 3vw;
+}
+
+
+/* "CONTACT" SECTION */
+
+form {
+
+    font-size: 40pt;
+    margin: auto;
+    padding: 1vw;
+    text-align: center;
+}
+
+input {
+    padding: 1vw;
+    text-align: center;
+}
+
+.textfield {
+
+    width: 30vw;
+}
+
+#robo {
+
+text-align: center;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 0;
+}
+
+#sub {
+    background-color: orange;
+    font-weight: bold;
+}

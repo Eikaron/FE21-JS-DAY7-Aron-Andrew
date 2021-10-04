@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Factory Vienna</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+        
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img class="swpimg" src="img/Taxify-Scooters.jpg" alt="Parked scooter">
+      </div>
+      <div class="swiper-slide">
+          <img class="swpimg" src="img/Phone.png" alt="Smartphone">
+      </div>
+      <div class="swiper-slide">
+        <img class="swpimg" src="img/Debit_card_ATM.jpg" alt="Hand inserting debit card into ATM">
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  
+
+ </header>
+
+
+    <main>
+            
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul> 
+
+    <h1> This is my first <br> website! :D</h1>
+
+
+    <div id="divphone">
+        <img id="phone" src="img/Phone.png" alt="Smartphone">
+        <h2>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</h3>
+    </div>
+
+    <br>
+
+    <div id="divcard">
+        <img id="card" src="img/Debit_card_ATM.jpg" alt="Hand inserting debit card into ATM">
+        <h2> Police are investigating three ATM explosions in two Florida counties</h2>
+    </div>
+
+
+    <div id="divscooter">
+
+    <img id="scooter" src="img/Taxify-Scooters.jpg" alt="Parked scooter">
+
+    <h2>E-Scooter firm Bolt pulls out of 12 <br> cities </h2>
+    </div>
+    
+
+    </main>
+
+
+    <footer>
+
+        <div id="bottomlogo">
+            <img src="img/logo.png">
+        </div>
+        Aron Faulhaber - CodeFactory2021
+
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+    </script>
+
+
+</body>
+</html>
