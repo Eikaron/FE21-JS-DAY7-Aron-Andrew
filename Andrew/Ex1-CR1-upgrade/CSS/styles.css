@@ -1,0 +1,137 @@
+/* GENERAL STYLES FONTS*/
+@font-face {
+    font-family: ubuntu-b;
+    src: url("../ubuntu-fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: ubuntu-m;
+    src: url("../ubuntu-fonts/Ubuntu-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hp-content-container {
+    padding: 3em;
+}
+
+header {
+    background-color: rgb(200, 184, 228);
+}
+
+/* HERO STYLES */
+.hero-container {
+    padding: 2em;
+    text-align: right;
+}
+
+.hero-container span {
+    font-family: ubuntu-m;
+    margin-right: 2em;
+}
+
+.hero-container img {
+    width: 40%;
+    vertical-align: middle;
+    margin-left: 5.2em;
+}
+
+/* NAVBAR STYLES */
+nav ul {
+    list-style: none;
+    background-color: rgb(236, 85, 123);
+    text-align: right;
+}
+
+.nav-link-container {
+    margin-right: 6em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-family: ubuntu-b;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(241, 248, 252);
+    display: block; 
+    padding: 0.6em 0.8em;
+}
+
+nav a:hover {
+    background-color: teal;
+}
+
+/* HOMEPAGE STYLES */
+
+.title {
+    margin: 1em auto;
+    text-align: center;
+    padding: 1em;
+    font-family: ubuntu-b;
+    font-size: 1.8em;
+    width: 50%;
+}
+
+/* HP IMAGE GALLERY */
+.image-gallery {
+    margin: 0.2em auto;
+    width: 88%;
+}
+
+.image-gallery img {
+    width: 100%;
+}
+
+.image-gallery p {
+    font-family: ubuntu-m;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.4em;
+}
+
+.samsung {
+    height: 24vh;
+    background-image: url("../img/Phone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gallery-row {
+    margin-top: 1em;
+}
+
+.atm {
+    text-align: center;
+    display: inline-block;
+    width: 46%;
+}
+
+.e-scooter {
+    text-align: center;
+    width: 46%;
+    float: right;
+}
+
+/* HP FOOTER STYLES */
+footer {
+    background-color: rgb(200, 184, 228);
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+footer img {
+    width: 30%;
+}
+
+footer p {
+    margin-top: 1.4em;
+    font-family: ubuntu-m;
+    font-size: 0.8em;
+}
