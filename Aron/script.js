@@ -23,7 +23,7 @@ const swiper = new Swiper('.swiper', {
 
 document.getElementById("phone").addEventListener("click", function(){
     Swal.fire({
-      title: "Do not click the phone!",
+      title: "Don't click the phone!",
       text: "What if it explodes?",
       icon: "warning"
     });
@@ -31,6 +31,14 @@ document.getElementById("phone").addEventListener("click", function(){
 );
 
 document.getElementById("card").addEventListener("click", function(){
-  Swal.fire('');
+  Swal.fire({
+    title: 'Animate it!',
+    showClass: {
+      popup: 'animate__animated animate__rubberBand'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__backOutDown'
+    }
+  })
 }
 );
