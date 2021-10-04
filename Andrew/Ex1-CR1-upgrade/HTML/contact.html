@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/contact-styles.css">
+    <link rel="shortcut icon" href="../img/play-icon-color-scaled.png" type="image/x-icon">
+    <title>AG FSWD Contact</title>
+</head>
+<body>
+    <div class="hp-content-container">
+        <!-- HEADER - Hero + Navbar -->
+        <header>
+            <div class="hero-container">
+                <span>Andrew Gorman Full-Stack Web Developer</span>
+                <img src="../img/logo.png" alt="CF-Logo">
+            </div>
+            <nav>
+                <ul>
+                    <div class="nav-link-container">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <!-- MAIN BODY FORM-->
+       <div class="form-container">
+           <h1>Contact Me</h1>
+           <form action="../includes/submit.inc.php">
+               <input type="text" name="firstname" placeholder="First name">
+               <input type="text" name="lastname" placeholder="Last name">
+               <h4>Which Blogs did You Like?</h4>
+               <div class="radio-container">
+                   <div class="radio-btn">
+                       <input type="radio" name="animalrights" value="animals"> Animal Rights
+                       <input type="radio" name="improvisationbrain" value="improvisation"> Improv Neuroscience
+                       <input type="radio" name="jazzviolins" value="jazzviolin"> Jazz Violin
+                       <input type="radio" name="howtolearn" value="learn"> Play to Learn
+                    </div>
+                </div>
+                <h4>What do you do?</h4>
+                <div class="checkbox">
+                    <input type="checkbox" name="stuff" value="stuff"> Coding
+                    <input type="checkbox" name="stuff" value="stuff"> Music
+                    <input type="checkbox" name="stuff" value="stuff"> Research
+                    <input type="checkbox" name="stuff" value="stuff"> Write Blogs
+                </div>
+                <input type="text" name="email" placeholder="Your email">
+                <textarea name="message" placeholder="Be as honest as you like...except if you don't like me. Then lie!"></textarea>
+                <button>
+                    <input type="submit">
+                </button>
+           </form>
+       </div>
+        <!-- FOOTER - Logo + Copyright -->
+        <footer>
+            <img src="../img/logo.png" alt="CF-Logo-smaller">
+            <p>Andrew Gorman © CodeFactory 2021</p>
+        </footer>
+    </div>
+</body>
+</html>

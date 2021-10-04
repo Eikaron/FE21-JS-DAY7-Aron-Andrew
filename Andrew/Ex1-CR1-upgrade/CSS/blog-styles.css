@@ -1,0 +1,40 @@
+/* BLOG-POST STYLES */
+
+*{
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 768px) {
+    .blog-container {
+        display: flex;
+    }
+
+}
+
+.blog-container {
+    width: 92%;
+    margin: 2em auto;
+}
+
+.blog-container a {
+    text-decoration: none;
+    color: rgb(71, 125, 150);
+}
+
+.blog-container a:hover {
+    color: aliceblue;
+}
+
+.box {
+    outline: solid 2px gray;
+    padding: 0.4em;
+    background-color: rgb(169, 169, 219);
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box p {
+    text-align: justify;
+}

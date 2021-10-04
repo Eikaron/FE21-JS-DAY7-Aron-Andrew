@@ -1,0 +1,28 @@
+/* ABOUT PAGE STYLES */
+.about-container {
+    margin: 4em auto;
+    padding: 2em;
+    width: 82%;
+    display: block;
+    outline: solid 1px gray;
+    background-color: rgb(247, 232, 215);
+}
+
+.about-container p {
+    text-align: justify;
+    font-family: ubuntu-m;
+    font-size: 1.2em;
+    padding: 0.6em;
+    line-height: 1.2em;
+}
+
+.about-container p span {
+    background-color: lightseagreen;
+}
+
+.about-container img {
+    width: 28%;
+    float: left;
+    margin-right: 0.8em;
+    border-radius: 4px;
+}

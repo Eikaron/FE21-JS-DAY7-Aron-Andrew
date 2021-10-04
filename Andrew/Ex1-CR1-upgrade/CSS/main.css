@@ -1,0 +1,96 @@
+@font-face {
+  font-family: ubuntu-b;
+  src: url("../ubuntu-fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-m;
+  src: url("../ubuntu-fonts/Ubuntu-Medium.ttf");
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+  background: #908fcc;
+}
+
+.swiper-container {
+  background-color: #ee7694;
+  padding: 1em;
+}
+
+.swiper {
+  margin: auto 16em;
+}
+
+.swiper-slide {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8em 3em;
+  font-family: ubuntu-m;
+}
+
+.swiper-slide h1 {
+  font-size: 2.6em;
+  color: #d8a007;
+}
+
+.swiper-slide p {
+  font-size: 1.8em;
+  color: #251e4b;
+}
+
+.swiper-slide span {
+  color: #251e4b;
+  background-color: aliceblue;
+  font-size: 1.8em;
+}
+
+.slide0 {
+  background: url("../img/cube/0.jpg");
+}
+
+.slide1 {
+  background: url("../img/cube/1.jpg");
+}
+
+.slide2 {
+  background: url("../img/cube/2.jpg");
+}
+
+.slide2 span {
+  color: #1a6813;
+  background: aliceblue;
+}
+
+.slide3 {
+  background: url("../img/cube/3.jpg");
+}
+
+.slide3 p {
+  color: aliceblue;
+}
+
+.slide4 {
+  background: url("../img/cube/4.jpg");
+}
+
+.slide4 span {
+  color: #1b1846;
+}
+
+.slide5 {
+  background: url("../img/cube/5.jpg");
+}
+
+.swiper-button-prev {
+  color: aliceblue;
+}
+
+.swiper-button-next {
+  color: aliceblue;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,62 @@
+/* CONTACT FORM STYLES */
+.form-container {
+    margin: 3em auto;
+    text-align: center;
+    width: 40vw;
+    font-family: ubuntu-b;
+    background-color: lightskyblue;
+    border-radius: 4px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input {
+    margin: 0.4em;
+    padding: 0.8em;
+}
+
+form h4 {
+    margin-top: 0.4em;
+}
+
+.radio-container {
+    margin: 0.8em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkbox {
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form textarea {
+    margin: 1em;
+    padding: 3em;
+}
+
+button {
+    background-color: rgb(178, 224, 178);
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(198, 123, 228);
+}
+
+button:active {
+    box-shadow: 4px 3px 9px rgb(81, 83, 83);
+}
+
+button input {
+    background-color: rgb(235, 182, 182);
+    border-radius: 4px;
+}
+
+button input:hover {
+    background-color: rgb(123, 151, 228);
+}
